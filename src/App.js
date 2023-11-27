@@ -7,16 +7,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         HOLA th0mi CTM CULIAO<code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* Se recibe en Index.js linea 10, se define por "root" linea 7, y esto se inserta en index.html linea 31  */}
+        Primer componente 
+         </p>
       </header>
     </div>
   );
