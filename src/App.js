@@ -6,6 +6,7 @@ function App() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [update, setUpdate] = useState();
 
   const handleNameChange = (e) => {
     setName(e.target.value);
@@ -22,13 +23,10 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission logic here
-    console.log(suma(name, email));
-    
+    setUpdate(name + " " +email);
   };
 
-  const suma = (a, b) => {
-    return a + b;
-  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -51,6 +49,7 @@ function App() {
         <br />
         <button onClick={handleSubmit} type="submit">Submit</button>
         </form>
+        <p>Tus datos: {update} </p>
         <p>
         {/* Se recibe en Index.js linea 10, se define por "root" linea 7, y esto se inserta en index.html linea 31  */}
         Burro pichula
