@@ -1,0 +1,34 @@
+.desplegable{
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.15);
+}
+.barras{
+    display: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-weight: bold;
+    padding-left: 20px;
+}
+li{
+    list-style: none;
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+li a{
+    padding: 10px;
+    display: block;
+    text-align: left;
+}
+ul li a:hover{
+    background: #a7a2a2;
+    border-radius: 5px;
+}
