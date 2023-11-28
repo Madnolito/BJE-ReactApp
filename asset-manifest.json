@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/BJE-ReactApp/static/css/main.e9cbad96.css",
-    "main.js": "/BJE-ReactApp/static/js/main.09ca67ff.js",
-    "static/js/787.02288d1a.chunk.js": "/BJE-ReactApp/static/js/787.02288d1a.chunk.js",
-    "static/media/manu-pa-la-caga.jpeg": "/BJE-ReactApp/static/media/manu-pa-la-caga.7661c51ca53edd96ceb1.jpeg",
+    "main.css": "/BJE-ReactApp/static/css/main.08b71960.css",
+    "main.js": "/BJE-ReactApp/static/js/main.5ccbd698.js",
+    "static/media/benja.jpeg": "/BJE-ReactApp/static/media/benja.0ab9704a3d23feacdcb4.jpeg",
+    "static/media/joaco.jpeg": "/BJE-ReactApp/static/media/joaco.713b2c0ad19e140ef296.jpeg",
+    "static/media/manu-pa-la-caga.jpeg": "/BJE-ReactApp/static/media/manu-pa-la-caga.99f0ebf5ae8e879c3e60.jpeg",
     "index.html": "/BJE-ReactApp/index.html",
-    "main.e9cbad96.css.map": "/BJE-ReactApp/static/css/main.e9cbad96.css.map",
-    "main.09ca67ff.js.map": "/BJE-ReactApp/static/js/main.09ca67ff.js.map",
-    "787.02288d1a.chunk.js.map": "/BJE-ReactApp/static/js/787.02288d1a.chunk.js.map"
+    "main.08b71960.css.map": "/BJE-ReactApp/static/css/main.08b71960.css.map",
+    "main.5ccbd698.js.map": "/BJE-ReactApp/static/js/main.5ccbd698.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9cbad96.css",
-    "static/js/main.09ca67ff.js"
+    "static/css/main.08b71960.css",
+    "static/js/main.5ccbd698.js"
   ]
 }
