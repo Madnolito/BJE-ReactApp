@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './header.css';
 let vacio = '';
 
@@ -7,8 +8,8 @@ function Header(){
              <header>
              <nav id='menu' className="desplegable">
                  <ul>
-                     <li><a href={vacio}>Home</a></li>
-                 </ul>  
+                     <li><a href='/'>Home</a></li>
+                 </ul>
              </nav>
              </header>
         </>
