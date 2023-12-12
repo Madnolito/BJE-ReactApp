@@ -1,17 +1,59 @@
-import { Link } from 'react-router-dom';
 import './header.css';
-let vacio = '';
 
 function Header(){
     return(
         <>
-             <header>
-             <nav id='menu' className="desplegable">
-                 <ul>
-                     <li><a href='/'>Home</a></li>
-                 </ul>
-             </nav>
-             </header>
+            <header>
+            <nav id='menu' className="desplegable">
+                <ul>
+                    <li><a href='/'>Home</a></li>
+                </ul>
+                <ul class="lightrope">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    </ul>
+            </nav>
+            </header>
         </>
     );
 }

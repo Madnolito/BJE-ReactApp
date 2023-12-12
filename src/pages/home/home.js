@@ -3,7 +3,7 @@ import manu from '../../assets/images/manu-pa-la-caga.jpeg';
 import joaco from '../../assets/images/joaco.jpeg';
 import benja from '../../assets/images/benja.jpeg';
 import { Link, Outlet } from 'react-router-dom';
-let vacio='';
+
 function Home(){
     return(
         <>
@@ -30,7 +30,40 @@ function Home(){
                     <p>Básicamente no tiene vida por la polola, le gusta hacer bollos con semen.</p>
                     <Link to='/benja'>Benja cosas</Link>
                 </div>
-            </div>               
+            </div>
+            
+            <div class="snowflakes" aria-hidden="true">
+                <div class="snowflake">
+                ❅
+                </div>
+                <div class="snowflake">
+                ❅
+                </div>
+                <div class="snowflake">
+                ❆
+                </div>
+                <div class="snowflake">
+                ❄
+                </div>
+                <div class="snowflake">
+                ❅
+                </div>
+                <div class="snowflake">
+                ❆
+                </div>
+                <div class="snowflake">
+                ❄
+                </div>
+                <div class="snowflake">
+                ❅
+                </div>
+                <div class="snowflake">
+                ❆
+                </div>
+                <div class="snowflake">
+                ❄
+                </div>
+            </div>    
             <Outlet />
         </div>
         </>
