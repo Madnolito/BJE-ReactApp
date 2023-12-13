@@ -6,7 +6,7 @@ function Header(){
             <header>
             <nav id='menu' className="desplegable">
                 <ul>
-                    <li><a href='/'>Home</a></li>
+                    <li><a href='/BJE-ReactApp'>Home</a></li>
                 </ul>
                 <ul class="lightrope">
                     <li></li>

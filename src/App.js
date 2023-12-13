@@ -13,10 +13,11 @@ function App() {
     <div className="Container">
       <Header />
       <Routes>
-          <Route path='/' element={<Home />} /> {/*Se muestra el home cuando no coincida con los otros '/' path */}
-          <Route path='/benja' element={<Benja/>}/>
-          <Route path='/joakito' element={<Joakitowo/>}/>
-          <Route path='manu' element={ <Manu/>} />
+          <Route path='/BJE-ReactApp' element={<Home />} /> {/*Se muestra el home cuando no coincida con los otros '/' path */}
+          <Route path='/BJE-ReactApp/benja' element={<Benja/>}/>
+          <Route path='/BJE-ReactApp/joakito' element={<Joakitowo/>}/>
+          <Route path='/BJE-ReactApp/manu' element={ <Manu/>} />
+          <Route path='*' element={<h1 style={{color:'white'}}>404</h1>} /> {/*Se muestra el 404 cuando no coincida con los otros '/' path */}
       </Routes>
     </div>
     </>

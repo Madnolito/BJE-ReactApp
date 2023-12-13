@@ -16,19 +16,19 @@ function Home(){
                     <img src={manu} className="carta-img" alt="logo" />
                     <h2>Manolito</h2>
                     <p>Ezquisofrenico no medicado, el ataca menores.</p>
-                    <Link to='/manu'>Manu cosas</Link>
+                    <Link to='/BJE-ReactApp/manu'>Manu cosas</Link>
                 </div>
                 <div class="carta">
                     <img src={joaco} className="carta-img" alt="logo" />
                     <h2>Joakito</h2>
                     <p>Se echa todos los ramos, fuckboy que no ha salido del closet.</p>
-                    <Link to='/joakito'>Joaco cosas</Link>
+                    <Link to='/BJE-ReactApp/joakito'>Joaco cosas</Link>
                 </div>
                 <div class="carta">
                     <img src={benja} className="carta-img" alt="logo" />
                     <h2>Benja Supra</h2>
                     <p>Básicamente no tiene vida por la polola, le gusta hacer bollos con semen.</p>
-                    <Link to='/benja'>Benja cosas</Link>
+                    <Link to='/BJE-ReactApp/benja'>Benja cosas</Link>
                 </div>
             </div>
             
