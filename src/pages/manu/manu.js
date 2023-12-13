@@ -1,12 +1,16 @@
-
 import React from 'react';
+import './manu.css';
 
 const Manu = () => {
+
   return (
-    <div>
-      <h1>Hola soy Manu el enano</h1>
-    </div>
+
+      <div class="manu-container">
+
+      </div>
+
   );
+
 };
 
 export default Manu;
