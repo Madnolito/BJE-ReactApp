@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/BJE-ReactApp/static/css/main.08b71960.css",
-    "main.js": "/BJE-ReactApp/static/js/main.5ccbd698.js",
+    "main.css": "/BJE-ReactApp/static/css/main.47d4b1f2.css",
+    "main.js": "/BJE-ReactApp/static/js/main.a77fb125.js",
     "static/media/benja.jpeg": "/BJE-ReactApp/static/media/benja.0ab9704a3d23feacdcb4.jpeg",
     "static/media/joaco.jpeg": "/BJE-ReactApp/static/media/joaco.713b2c0ad19e140ef296.jpeg",
     "static/media/manu-pa-la-caga.jpeg": "/BJE-ReactApp/static/media/manu-pa-la-caga.99f0ebf5ae8e879c3e60.jpeg",
     "index.html": "/BJE-ReactApp/index.html",
-    "main.08b71960.css.map": "/BJE-ReactApp/static/css/main.08b71960.css.map",
-    "main.5ccbd698.js.map": "/BJE-ReactApp/static/js/main.5ccbd698.js.map"
+    "main.47d4b1f2.css.map": "/BJE-ReactApp/static/css/main.47d4b1f2.css.map",
+    "main.a77fb125.js.map": "/BJE-ReactApp/static/js/main.a77fb125.js.map"
   },
   "entrypoints": [
-    "static/css/main.08b71960.css",
-    "static/js/main.5ccbd698.js"
+    "static/css/main.47d4b1f2.css",
+    "static/js/main.a77fb125.js"
   ]
 }
