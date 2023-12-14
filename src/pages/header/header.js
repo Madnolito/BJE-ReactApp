@@ -8,7 +8,7 @@ function Header(){
                 <ul>
                     <li><a href='/BJE-ReactApp'>Home</a></li>
                 </ul>
-                <ul class="lightrope">
+                <ul className="lightrope">
                     <li></li>
                     <li></li>
                     <li></li>
