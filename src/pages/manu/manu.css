@@ -1,7 +1,107 @@
+/* .Container {
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 23 42/var(--tw-bg-opacity)) !important;
+} */
+
 .manu-container {
-    margin-left: 5rem;
-    margin-right: 5rem;
-    display: grid;
-    justify-content: center;
+    margin-left: 23rem;
+    margin-right: 23rem;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.281);
 }
-  
+
+.manu-container h1, h2, h3, h4, p, span, strong {
+    font-family: 'Oswald';
+}
+
+.info-container{
+    margin: 5rem;
+}
+
+.manu-title {
+    margin-top: 8rem;
+    --tw-text-opacity: 1;
+    color: rgb(94 234 212/var(--tw-text-opacity));
+    font-size: 70px;
+    margin-bottom: 0;
+}
+
+.manu-subtitle{
+    --tw-text-opacity: 1;
+    color: rgb(94 234 212/var(--tw-text-opacity));
+    margin-top: 0;
+    font-size: 44px;
+}
+
+.title-animate {
+    text-align: left;
+}
+
+.description {
+    --tw-text-opacity: 1;
+    color: rgb(148 163 184/var(--tw-text-opacity));
+    text-align: justify;
+    font-size: 18px;
+}
+
+.about-me{
+    margin-top: 3rem;
+    --tw-text-opacity: 1;
+    color: rgb(226 232 240/var(--tw-text-opacity));
+}
+
+.experience{
+    margin-top: 6rem;
+    --tw-text-opacity: 1;
+    color: rgb(226 232 240/var(--tw-text-opacity));
+}
+
+/* EXPERIENCIA */
+
+.card-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.job-card{
+    margin: 1rem;
+    --tw-text-opacity: 1;
+    overflow: hidden;
+    text-align: center;
+    flex: 1;
+    border-bottom: 3px solid rgb(94 234 212/var(--tw-text-opacity));
+}
+.business-name {
+    --tw-text-opacity: 1;
+    color: rgb(94 234 212/var(--tw-text-opacity));
+    margin-top: 3rem;
+}
+
+.job-time {
+    --tw-text-opacity: 1;
+    color: rgb(148 163 184/var(--tw-text-opacity));
+    font-size: 18px;
+}
+
+.job-description {
+    --tw-text-opacity: 1;
+    color: rgb(148 163 184/var(--tw-text-opacity));
+    text-align: justify;
+    font-size: 18px;
+}
+
+.job-tecno {
+    --tw-text-opacity: 1;
+    color: rgb(148 163 184/var(--tw-text-opacity));
+    text-align: justify;
+    font-size: 18px;
+}
+
+.job-duty {
+    font-size: 20px;
+}
+
+
+/* FIN EXPERIENCIA */
