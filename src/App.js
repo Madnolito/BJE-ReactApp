@@ -5,7 +5,7 @@ import Header from './pages/header/header'
 import Home from './pages/home/home'
 import Benja from './pages/benja/benja';
 import Joakitowo from './pages/joakitowo/joakitowo';
-import Manu from './pages/manu/manu';
+import {Manu} from './pages/manu/manu';
 
 function App() {
   return (
