@@ -6,6 +6,14 @@ var ihunt = "[Nov 2022 - Jun 2023] [8 meses]";
 var appcar = "[Jul 2022 - Sept 2022] [3 meses]";
 var valkiria = "[Ene 2022 - Jun 2022] [6 meses]";
 
+const fadeInVariants = {
+  animate: {
+    opacity: 1,
+    scale: 1
+  },
+
+}
+
 export const Manu = () => {
   return (
       <>
@@ -18,8 +26,8 @@ export const Manu = () => {
           whileHover={{ 
             scale: 1.1,
             textShadow: "0px 0px 4px rgb(255,255,255)"}}       
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
+          initial={{ opacity: 0, y: -150 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}>
           <h1 className='manu-title'>Portafolio de Emanuel</h1>
         </motion.div>
@@ -29,14 +37,14 @@ export const Manu = () => {
           whileHover={{ 
             scale: 1.1,
             textShadow: "0px 0px 4px rgb(255,255,255)" }}       
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
+          initial={{ opacity: 0, x: -150 }}
+          animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.9 }}>
           <h2 className='manu-subtitle'>Desarrollador</h2>  
         </motion.div>
 
         <motion.div
-        initial={{ opacity: 0, scale: 0 }}
+        initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
         >
@@ -45,7 +53,7 @@ export const Manu = () => {
         <motion.div
 
         whileHover={{ scale: 1.1 }}
-        initial={{ opacity: 1, scale: 0 }}
+        initial={{ opacity: 1, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.5 }}
         >
@@ -56,8 +64,12 @@ export const Manu = () => {
         </motion.div>
 
         <motion.div
-        initial={{ opacity: 0, scale: 0 }}
-        animate={{ opacity: 1, scale: 1 }}
+        initial={{ opacity: 0, scale: 0.5 }}
+        variants={fadeInVariants}
+        whileInView="animate"
+        viewport={{
+          once: true,
+        }}
         transition={{ duration: 2 }}
         >
         <h1 className='experience'>Experiencia</h1>
@@ -68,8 +80,12 @@ export const Manu = () => {
         </motion.div>
         
         <motion.div
-        initial={{ opacity: 0, scale: 0 }}
-        animate={{ opacity: 1, scale: 1 }}
+        initial={{ opacity: 0, scale: 0.5 }}
+        variants={fadeInVariants}
+        whileInView="animate"
+        viewport={{
+          once: true,
+        }}
         transition={{ duration: 2 }}
         whileHover={{ scale: 1.1 }}
         >
@@ -95,26 +111,31 @@ export const Manu = () => {
           <li className='aptitudes-li'><div className='aptitudes-box'>HTML</div></li>
           <li className='aptitudes-li'><div className='aptitudes-box'>JavaScript</div></li>
         </ul>
-        
-
-      
       </motion.div>
       {/* FIN PRIMERA EXP */}
 
 
       {/* SEGUNDA EXPERIENCIA */}
       <motion.div
-        initial={{ opacity: 0, scale: 0 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 2 }}
+        initial={{ opacity: 0, scale: 0.5 }}
+        variants={fadeInVariants}
+        whileInView="animate"
+        viewport={{
+          once: true,
+        }}
+        transition={{ duration: 1 }}
         >
       <h1 className='business-name'>AppCar</h1>
       <p className="job-time">{appcar}</p>
       </motion.div>
         <motion.div
-        initial={{ opacity: 0, scale: 0 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 2 }}
+        initial={{ opacity: 0, scale: 0.5 }}
+        variants={fadeInVariants}
+        whileInView="animate"
+        viewport={{
+          once: true,
+        }}
+        transition={{ duration: 1 }}
         whileHover={{ scale: 1.1 }}
         >
         <div className="card-container">
@@ -148,18 +169,26 @@ export const Manu = () => {
 
       {/* TERCERA EXPERIENCIA */}
       <motion.div
-        initial={{ opacity: 0, scale: 0 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 2 }}
+        initial={{ opacity: 0, scale: 0.5 }}
+        variants={fadeInVariants}
+        whileInView="animate"
+        viewport={{
+          once: true,
+        }}
+        transition={{ duration: 1 }}
         >
       <h1 className='business-name'>Valkiria</h1>
       <p className="job-time">{valkiria}</p>
       </motion.div>
 
         <motion.div
-        initial={{ opacity: 0, scale: 0 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 2 }}
+        initial={{ opacity: 0, scale: 0.5 }}
+        variants={fadeInVariants}
+        whileInView="animate"
+        viewport={{
+          once: true,
+        }}
+        transition={{ duration: 1 }}
         whileHover={{ scale: 1.1 }}
         >
         <div className="card-container">
